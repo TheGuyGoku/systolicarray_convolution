@@ -12,3 +12,7 @@ Convolution using Systolic Array
 - Increase number of memory reads per cycle, thus reducing the total time
 - Spanning for larger Image and Kernel Size
 - Reduce FIFO/ interal registers usage
+### Example: 
+- Image: '{'{1, 2, 3}, '{4, 5, 6}, '{1, 2, 3}}
+- Kernel: '{'{2, 0}, '{1, 2}}
+- Output: '{'{16, 21}, '{13, 18}}
